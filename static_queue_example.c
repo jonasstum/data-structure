@@ -8,7 +8,7 @@ struct QueueData
 {
 	char name[50];
 	char time[6]; 
-};
+};  
 
 struct QueueControl
 {
