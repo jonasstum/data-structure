@@ -143,18 +143,18 @@ void show_stack()
 	
 	printf("\n ******************** BOOK STACK ********************\n");
 	
-    for (unsigned int i = 0; i < g_Books.end; i++) 
-    {
-      printf("\n ********* BOOK %d *********\n", i + 1);
-      printf(" Code: %s\n", g_Books.data[i].code);
-      printf(" Title: %s\n", g_Books.data[i].name);
-      printf(" Author: %s\n", g_Books.data[i].author); 
-      printf(" **************************\n");
-    }
+    	for (unsigned int i = 0; i < g_Books.end; i++) 
+    	{
+      		printf("\n ********* BOOK %d *********\n", i + 1);
+      		printf(" Code: %s\n", g_Books.data[i].code);
+      		printf(" Title: %s\n", g_Books.data[i].name);
+      		printf(" Author: %s\n", g_Books.data[i].author); 
+      		printf(" **************************\n");
+    	}
     
-    printf("\n ****************************************************\n\n");
+    	printf("\n ****************************************************\n\n");
     
-    system("pause");
+    	system("pause");
     
-    stack_menu();  
+    	stack_menu();  
 }
