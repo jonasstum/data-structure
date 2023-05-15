@@ -44,7 +44,7 @@ void queue_menu()
 	printf(" 1 - Add client to queue\n");
 	printf(" 2 - Remove client from queue\n");
 	printf(" 3 - Show clients in the queue\n");
-	printf(" 4 - Exit the program\n");
+	printf(" 0 - Exit the program\n");
 	printf(" **************************************\n");
 	scanf("%d", &opt);
 	
