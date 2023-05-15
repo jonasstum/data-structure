@@ -94,7 +94,7 @@ void push_back()
 		scanf("%50[^\n]s", g_Queue.data[g_Queue.end].name);
 		fflush(stdin);
 		printf(" Arrival Time [HH:MM]: ");
-		scanf("%10[^\n]s", g_Queue.data[g_Queue.end].time);
+		scanf("%6[^\n]s", g_Queue.data[g_Queue.end].time);
 		fflush(stdin);
 		printf(" *******************************************\n");
 		
